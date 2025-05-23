@@ -1,8 +1,8 @@
 import { exists } from "https://deno.land/std/fs/exists.ts"; // Import exists function
 
-const envUUID = Deno.env.get('UUID') || 'e5185305-1984-4084-81e0-f77271159c62';
+const envUUID = Deno.env.get('UUID') || '5229867f-bd14-464c-b4b6-09b04f60d67e';
 const proxyIP = Deno.env.get('PROXYIP') || '';
-const credit = Deno.env.get('CREDIT') || 'DenoBy-ModsBots';
+const credit = Deno.env.get('CREDIT') || '🌹KKH_V2Ray🌹';
 
 const CONFIG_FILE = 'config.json';
 
@@ -162,7 +162,7 @@ Deno.serve(async (request: Request) => {
             <a href="/${userID}" class="button">Get My VLESS Config</a>
         </div>
         <div class="footer">
-            Powered by Deno. For support, contact <a href="https://t.me/modsbots_tech" target="_blank">@modsbots_tech</a>.
+            Powered by Deno. For support, contact <a href="https://t.me/kyawko2215" target="_blank">@kyawko2215</a>.
         </div>
     </div>
 </body>
@@ -330,7 +330,7 @@ Deno.serve(async (request: Request) => {
         }
     </script>
     <div class="footer">
-        Powered by Deno. For support, contact <a href="https://t.me/modsbots_tech" target="_blank">@modsbots_tech</a>.
+        Powered by Deno. For support, contact <a href="https://t.me/kyawko2215" target="_blank">@kyawko2215</a>.
     </div>
 </body>
 </html>
