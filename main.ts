@@ -2,7 +2,7 @@ import { exists } from "https://deno.land/std/fs/exists.ts"; // Import exists fu
 
 const envUUID = Deno.env.get('UUID') || '5229867f-bd14-464c-b4b6-09b04f60d67e';
 const proxyIP = Deno.env.get('PROXYIP') || '';
-const credit = Deno.env.get('CREDIT') || '🌹KKH_V2Ray🌹';
+const credit = Deno.env.get('CREDIT') || '🌹 KKH_V2Ray 🌹';
 
 const CONFIG_FILE = 'config.json';
 
